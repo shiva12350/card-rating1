@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #494F55;
+}
+
+.rating-card {
+    width: 300px;
+    padding: 35px;
+    background-color: rgb(28, 28, 28);
+    border-radius: 20px;
+}
+
+.star-text {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff8000;
+    padding: 5px;
+    background-color: #2E2E2E;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.heading {
+    color: #fff;
+    margin: 30px 0 20px;
+}
+
+.para {
+    color: #fff;
+
+}
+
+.rgroup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.rate {
+    display: flex;
+    color: white;
+    background-color: #2E2E2E;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.rate:hover {
+    background-color: #F28C28;
+    transition-duration: 1s;
+}
+
+.rate span {
+    display: block;
+    margin: auto auto;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.btn-submit {
+    width: 100%;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    background-color: #F28C28;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: whitesmoke;
+    color: #F28C28;
+    transition-duration: 1s;
+}
+
+/* thank you design  */
+
+.greet-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 10px auto;
+    padding: 35px;
+    background-color: #171717;
+    border-radius: 15px;
+}
+
+.thank-icon {
+    height: 80px;
+}
+
+.ty-rates {
+    background-color: #2E2E2E;
+    color: #F28C28;
+    padding: 5px 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}

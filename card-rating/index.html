@@ -1,0 +1,38 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="rating-card">
+            <div class="star-text"><i class="fa-solid fa-star"></i></div>
+            <h2 class="heading">How did we do?</h2>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quis corporis dolores vero debitis Lorem ipsum dolor sit amet.</p>
+            <div class="rgroup">
+                <div class="one rate" onclick="rate(this,1)"><span>1</span></div>
+                <div class="two rate" onclick="rate(this,2)"><span>2</span></div>
+                <div class="three rate" onclick="rate(this,3)"><span>3</span></div>
+                <div class="four rate" onclick="rate(this,4)"><span>4</span></div>
+                <div class="five rate" onclick="rate(this,5)"><span>5</span></div>
+            </div>
+            <button class="btn-submit" onclick="submitRating()">SUBMIT</button>
+        </div>
+        <div class="greet-card hide">
+            <img src="greet1.png" class="thank-icon" alt="">
+            <div class="ty-rates">You selected <span class="rate-span">4</span> out of 5</div>
+            <h2 class="heading">Thank you!</h2>
+            <p class="para t-center">We appreciate you taking the time to give a rating. If you ever need more support dont hesitate to get in touch!</p>
+        </div>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
